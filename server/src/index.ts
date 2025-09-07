@@ -1,6 +1,6 @@
 import { Hono } from "hono"
 import { v4 as uuid } from "uuid"
-import test from "./test"
+import test from "./test.js"
 
 const app = new Hono()
 
